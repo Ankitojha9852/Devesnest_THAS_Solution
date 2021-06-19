@@ -1,6 +1,8 @@
-function is_array(arr) {
-  return Array.isArray(arr);
+function propsOfObj(obj) {
+  for (key in obj) {
+    process.stdout.write(key + ",");
+  }
 }
 
-console.log(is_array("w3resource"));
-console.log(is_array([1, 2, 4, 0]));
+var student = { name: "David Rayy", sclass: "VI", rollno: 12 };
+propsOfObj(student);

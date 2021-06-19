@@ -1,11 +1,7 @@
-function array_Clone(array) {
-  let arr1 = [];
-  for (const iterator of array) {
-    // arr1[iterator] = array[iterator];
-    arr1.push(iterator);
-  }
-  return arr1;
-}
+var student = { name: "David Rayy", sclass: "VI", rollno: 12 };
 
-console.log(array_Clone([1, 2, 4, 0]));
-console.log(array_Clone([1, 2, [4, 0]]));
+console.table(student);
+
+delete student.rollno;
+
+console.table(student);
