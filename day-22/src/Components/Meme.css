@@ -1,0 +1,17 @@
+.meme {
+	height: auto;
+	width: auto;
+}
+
+.meme__img {
+	height: 350px;
+	width: 350px;
+	object-fit: contain;
+}
+
+.controller {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+}
